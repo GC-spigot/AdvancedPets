@@ -1,6 +1,6 @@
 name: "Feature Request"
 description: "Request a feature you would like added to AE."
-labels: ["ype: Feature Request"]
+labels: ["Type: Feature Request"]
 body:
   - type: markdown
     attributes:
