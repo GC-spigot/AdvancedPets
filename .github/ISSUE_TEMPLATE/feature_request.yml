@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-          Check whether it has already been requested or added.
+          1. Check whether it has already been requested or added.
                You can search the issue tracker to see if what you want has already 
                been requested and/or added to the plugin.
           2.  Only put ONE feature request per issue. This helps us keep track of things.
