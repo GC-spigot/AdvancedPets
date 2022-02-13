@@ -1,5 +1,5 @@
 name: "Feature Request"
-description: "Request a feature you would like added to AE."
+description: "Request a feature you would like added to AdvancedPets."
 labels: ["Type: Feature Request"]
 body:
   - type: markdown
