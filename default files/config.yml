@@ -1,0 +1,38 @@
+# AdvancedPets by GC
+# Version: 1.1.4
+# Release date: 2022/03/06
+
+# Wiki: https://pets.advancedplugins.net
+
+settings:
+  language: en
+
+# Sound list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+sounds:
+  # Sound played when GUI item is clicked
+  uiClick: 'UI_BUTTON_CLICK'
+  # Played when owned pet is right-clicked
+  petRightClick: 'ENTITY_SHULKER_OPEN'
+
+
+# Permission to rename pets: advancedpets.rename
+petRenaming:
+  useColors: true # Should players be able to use color codes? Permission: advancedpets.rename.colors
+  maximumLength: 32
+  blockSwearWords: true # Should bad words be blocked automatically?
+  wordBlacklist: # Swear word filter is built-in
+    - 'badWord1'
+    - 'badWord2'
+
+# Should last active pet automatically spawn when player joins?
+spawnPetUponJoining: true
+
+# Pet Follow Settings
+followingSettings:
+  # How many blocks away should the pet be to start walking closer towards player?
+  #   Higher number means player is able to be further away before pet starts following
+  #   Useful if pets are in the way for players when building
+  #   Default is 8
+  startsFollowing: 2
+  # How many blocks away is pet before teleporting closer to player?
+  teleports: 15
