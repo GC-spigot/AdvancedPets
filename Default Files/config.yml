@@ -1,0 +1,60 @@
+# AdvancedPets by GC
+# Version: 2.12.0
+# Release date: 26/08/2024
+
+# Wiki: https://pets.advancedplugins.net
+
+settings:
+  language: en
+
+# Sound list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+sounds:
+  # Sound played when GUI item is clicked
+  uiClick: 'UI_BUTTON_CLICK'
+  # Custom pet sound volume
+  # Default is 1.0
+  volume: 1.0
+
+# Permission to rename pets: advancedpets.rename
+petRenaming:
+  useColors: true # Should players be able to use color codes? Permission: advancedpets.rename.colors
+  maximumLength: 32
+  blockSwearWords: true # Should bad words be blocked automatically?
+  wordBlacklist: # Swear word filter is built-in
+    - 'badWord1'
+    - 'badWord2'
+
+# Should last active pet automatically spawn when player joins?
+spawnPetUponJoining: true
+
+# Should a skin in selection menu be hidden if user doesn't have permission?
+hideNoPermissionSkins: false
+
+# Pet Follow Settings
+followingSettings:
+  # How many blocks away should the pet be to start walking closer towards player?
+  #   Higher number means player is able to be further away before pet starts following
+  #   Useful if pets are in the way for players when building
+  #   Default is 8
+  startsFollowing: 2
+  # How many blocks away is pet before teleporting closer to player?
+  teleports: 15
+
+# Pet Interaction
+interaction:
+  # Can players open pet menu by interacting with pet?
+  enabled: true
+  # How should player interact with pet to open the menu? Possibilities are:
+  # RIGHT_CLICK, SHIFT_RIGHT_CLICK
+  #e.g. trigger: 'SHIFT_RIGHT_CLICK' would open the pet by shifting while right clicking it
+  trigger: 'RIGHT_CLICK'
+  # Played when owned pet is right-clicked
+  sound: 'ENTITY_SHULKER_OPEN'
+
+
+# Worlds in which pets will not spawn
+world-blacklist:
+  - 'Example_world'
+
+# Config version, don't change
+version: 1

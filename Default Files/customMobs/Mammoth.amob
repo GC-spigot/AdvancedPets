@@ -1,0 +1,22 @@
+# Tips:
+# 1 - if making a small mob, armor stands that are stuck in ground are usually seen darker, this is rendered from client so only
+#     way of avoiding is to flip armor stand's head 180 degrees (like this 'headPose: 180;0;0), upside down so you can elevate the
+#     armor stand higher from the ground, this way avoiding such issue.
+#
+# Tool for easier armor stand handling: https://haselkern.com/Minecraft-ArmorStand/
+
+# EDIT MOBS IN-GAME USING /as editor
+
+settings:
+  health: 80
+  sounds: IRON_GOLEM
+  hostile: false
+  nametagHeight: 0
+  walkingspeed: 1.0
+  modelengine: mammoth
+
+skins:
+parts:
+ 
+
+

@@ -1,0 +1,98 @@
+# Pet Upgrades
+enabled: true
+
+# Economy used for pricing
+economy: EXP
+
+# Pet blacklist
+#  Which pets shouldn't be upgradeable?
+upgradesBlacklist:
+  - 'Wyvern'
+
+# Should item amounts be used to display level of upgrade?
+itemAmountsAsLevel: true
+
+menu:
+  name: "&eUpgrade Pet"
+  size: 45
+  upgradesSlots: [ 0,9,18,19,20,11,2,3,4,13,22,23,24,15,6,7,8,17,26 ]
+  # Item to display instead of `upgradeItem` when still locked
+  upgradeItemLocked:
+    type: STAINED_GLASS_PANE
+    id: 14
+    name: "&7Upgrade &e%pet name% &7to &6level %new level%"
+    lore:
+      - ''
+      - '&fUpgrade Bonus:'
+      - '  &a⭐ &f%abilities%' #%abilities% displays new abilities
+      - ''
+      - '&fTo Unlock:'
+      - '  &7Your Progress &b%price progress%% / 100%'
+      - '  &7Price &b%price% EXP'
+  upgradeItem: # Unlocked levels will glow in menu
+    type: STAINED_GLASS_PANE
+    id: 5
+    name: "&7Upgrade &e%pet name% &7to &6level %new level%"
+    lore:
+      - ''
+      - '&fUpgrade Bonus:'
+      - '  &a⭐ &f%abilities%' #%abilities% displays new abilities
+      - ''
+      - '&fTo Unlock:'
+      - '  &7Your Progress &b%price progress%% / 100%'
+      - '  &7Price &b%price% EXP'
+    items:
+      '0-44':
+        type: STAINED_GLASS_PANE
+        id: 7
+        name: " "
+      '27-35':
+        type: STAINED_GLASS_PANE
+        id: 15
+        name: " "
+      '40':
+        type: BOOK
+        name: "&fInformation about this pet:"
+        lore:
+          - "  &7Pet Name: &e%pet name%"
+          - "  &7Pet Upgrades: &elvl %pet level%"
+
+levels:
+  1:
+    price: 0
+  2:
+    price: 600
+  3:
+    price: 700
+  4:
+    price: 800
+  5:
+    price: 1000
+  6:
+    price: 1200
+  7:
+    price: 1400
+  8:
+    price: 1800
+  9:
+    price: 2200
+  10:
+    price: 3000
+  11:
+    price: 4000
+  12:
+    price: 5000
+  13:
+    price: 7000
+  14:
+    price: 9000
+  15:
+    price: 11000
+  16:
+    price: 14000
+  17:
+    price: 18000
+  18:
+    price: 22000
+  19:
+    price: 30000

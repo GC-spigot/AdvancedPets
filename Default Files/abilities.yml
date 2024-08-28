@@ -1,0 +1,8 @@
+# Abilities configuration for general settings
+# Wiki: https://wiki.advancedplugins.net/abilities/introduction
+
+# Add custom condition variables
+conditions:
+  custom:
+    '%sword types%': "WOODEN_SWORD, STONE_SWORD, IRON_SWORD, GOLDEN_SWORD, DIAMOND_SWORD, NETHERITE_SWORD"
+    '%ore types%': "COAL_ORE, IRON_ORE, LAPIS_ORE, REDSTONE_ORE, DIAMOND_ORE, EMERALD_ORE, NETHER_QUARTZ_ORE, ANCIENT_DEBRIS"

@@ -1,0 +1,229 @@
+# Tips:
+# 1 - if making a small mob, armor stands that are stuck in ground are usually seen darker, this is rendered from client so only
+#     way of avoiding is to flip armor stand's head 180 degrees (like this 'headPose: 180;0;0), upside down so you can elevate the
+#     armor stand higher from the ground, this way avoiding such issue.
+#
+# Tool for easier armor stand handling: https://haselkern.com/Minecraft-ArmorStand/
+
+# EDIT MOBS IN-GAME USING /as editor
+
+settings:
+  health: 40
+  sounds: WOLF
+  hostile: true
+  nametagHeight: 0.9
+  damage: 8
+  animateOnWalking: true
+  animationSmoothness: 1
+  headFollow: true
+  animationSpeed: 5
+  headFollow: true
+  biomes:
+    - 'ALL'
+
+# You can save skins as specific names here to be used with parts
+#  Get skin's base64 from:
+#  Custom Skin - Convert a skin into base64 https://mineskin.org/
+#  Pre-made Skins - Get pre-made skin's value (under 'other', 'value' will be the base64) https://minecraft-heads.com/custom-heads
+skins:
+  head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUxZjFlOGNlOWY0ODNkZGE3MDRiYzg5M2FmMzFhN2NiMTI2MTEwYjRjNTJhYWQ3MDAyZmY1ODFlNTMzOGE3MCJ9fX0=
+  body1: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY2MDcwZDI3NWZlNzFlNjhhMGJiZDJiMzY4M2ViMDQzZDMyNTYyZmMxODZlMzA4MzRkN2E4NjRjMTJjYTY2YyJ9fX0=
+
+# Here are all the mob parts listed
+#  These parts are all dynamic, can be deleted, new created and edited
+#  Edit mobs in-game using /as editor
+parts:
+  head:
+    forwardBackward: 0
+    upDown: 0.675
+    rightLeft: 0.05
+    visible: false
+    mini: false
+    headItem: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUxZjFlOGNlOWY0ODNkZGE3MDRiYzg5M2FmMzFhN2NiMTI2MTEwYjRjNTJhYWQ3MDAyZmY1ODFlNTMzOGE3MCJ9fX0=
+  body1:
+    forwardBackward: -0.2
+    upDown: 0.1
+    rightLeft: 0
+    visible: false
+    mini: false
+    headPose: 0;0;0
+    headItem: body1
+  govde2:
+    forwardBackward: 0.2
+    upDown: 0.1
+    rightLeft: 0
+    visible: false
+    mini: false
+    headPose: 0;0;0
+    headItem: body1
+  govdealt1:
+    forwardBackward: -0.15
+    upDown: 0.40
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;0
+    headItem: body1
+  govdealt2:
+    forwardBackward: 0.15
+    upDown: 0.40
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;0
+    headItem: body1
+  arm1:
+    forwardBackward: 0.66
+    upDown: 0.93
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;-10
+    headItem: body1
+  arm2:
+    forwardBackward: 0.73
+    upDown: 0.53
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;-10
+    headItem: body1
+  arm3:
+    forwardBackward: 0.785
+    upDown: 0.185
+    rightLeft: 0.145
+    visible: false
+    mini: true
+    headPose: 20;-180;-10
+    headItem: body1
+  armleft1:
+    forwardBackward: -0.66
+    upDown: 0.93
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;10
+    headItem: body1
+  armleft2:
+    forwardBackward: -0.73
+    upDown: 0.53
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;10
+    headItem: body1
+  armleft3:
+    forwardBackward: -0.785
+    upDown: 0.185
+    rightLeft: 0.145
+    visible: false
+    mini: true
+    headPose: -20;0;10
+    headItem: body1
+  sword:
+    forwardBackward: -0.3
+    upDown: 0.2
+    rightLeft: -0.1
+    visible: false
+    mini: false
+    right_handPose: -30;0;10
+    handItem: material:gold_sword
+  legs1:
+    forwardBackward: 0.225
+    upDown: -0.03
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;-10
+    headItem: body1
+  legs2:
+    forwardBackward: 0.285
+    upDown: -0.38
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;-10
+    headItem: body1
+  legs3:
+    forwardBackward: 0.29
+    upDown: -0.35
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: -180;-180;0
+    headItem: body1
+  legs3on:
+    forwardBackward: 0.29
+    upDown: -0.35
+    rightLeft: 0.2
+    visible: false
+    mini: true
+    headPose: -180;-180;0
+    headItem: body1
+  legs1left:
+    forwardBackward: -0.225
+    upDown: -0.03
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;10
+    headItem: body1
+  legs2left:
+    forwardBackward: -0.285
+    upDown: -0.38
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: 0;0;10
+    headItem: body1
+  legs3left:
+    forwardBackward: -0.29
+    upDown: -0.35
+    rightLeft: 0
+    visible: false
+    mini: true
+    headPose: -180;0;0
+    headItem: body1
+  legs3onleft:
+    forwardBackward: -0.29
+    upDown: -0.35
+    rightLeft: 0.2
+    visible: false
+    mini: true
+    headPose: -180;0;0
+    headItem: body1
+
+
+
+animations:
+  '1':
+    legs1:
+      headPose: 20;0;-10
+    legs2:
+      headPose: 20;0;-10
+    legs3:
+      headPose: -200;-180;0
+    legs3on:
+      headPose: -200;-180;0
+    legs1left:
+      headPose: -20;0;10
+    legs2left:
+      headPose: -20;0;10
+    legs3left:
+      headPose: -160;0;0
+    legs3onleft:
+      headPose: -160;0;0
+    arm1:
+      headPose: 10;0;-10
+    arm2:
+      headPose: 10;0;-10
+    arm3:
+      headPose: 40;-180;-10
+    armleft1:
+      headPose: -10;0;10
+    armleft2:
+      headPose: -10;0;10
+    armleft3:
+      headPose: -40;0;10
+    sword:
+      right_handPose: -40;0;10

@@ -1,0 +1,13 @@
+# Dog Abilities
+#  Pets can give off special abilities to pet owners passively or at events
+#  Effect List: https://wiki.advancedplugins.net/effects/effect-types
+#  Read more here: https://wiki.advancedplugins.net/effects/types
+
+description: "Deal &a+<math>%level%*0.6</math>%&f more damage"
+
+ATTACK:
+  effects:
+    - 'DO_HARM:<math>%level%*0.6</math> @Other'
+ATTACK_MOB:
+  effects:
+    - 'DO_HARM:<math>%level%*0.6</math> @Other'

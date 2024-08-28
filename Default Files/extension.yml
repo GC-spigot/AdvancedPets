@@ -1,0 +1,6 @@
+id: apets
+name: AdvancedPets
+main: net.advancedplugins.geyser.extension.apets.GeyserCore
+api: 1.0.0
+version: 1.0.0
+authors: [GC]

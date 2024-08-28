@@ -1,0 +1,263 @@
+
+settings:
+  health: 15 # Mob's health
+  sounds: OCELOT # Sound List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  hostile: false # Is mob hostile? If set to false, mob will not be aggressive towards players
+  nametagHeight: 0.3 # How high should the nametag be?
+  damage: 3 # How much damage should the mobs do to players?
+  animateOnWalking: true # Should animation be active only when mob is walking?
+  animationSmoothness: 10 # How smooth should the animation be? 1-20, higher being smoother.
+  animationSpeed: 1 # How smooth should the animation be? 1-20, lower being faster.
+  biomes: # Random spawning in specified biomes. Biome list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html, set to 'all' to use all biomes
+    - 'FOREST'
+    - 'PLAINS'
+    - 'RIVER'
+    - 'SAVANNA'
+    - 'SWAMP'
+    - 'BREACH'
+    - 'BADLANDS'
+    - 'JUNGLE'
+    - 'OCEAN'
+
+skins:
+  exampleSkin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUwNzQ5MmQ5MzFkYzZlY2IwNTAzZDY2ZmRhZDZjZjc1ZDJkODczMDgzOTkyMzcyYzkxMDE2N2FkMmEyZmZiZiJ9fX0=
+  body: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlODgyMWNhMDRlN2ZlMDlkMThkMzY5ODQ3NzkxNTY1MTEyNTg0MWY0NDUzOTRmMzZmZTUwNWI5OGNiYmJkIn19fQ==
+  leg: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMxODMzZDJhNGVmMWU2YTk5OGJkODk5MmJjYWFlNzZhOTVkYjg4NjM4MGI0YWQ5MjFlNGVjMzY2M2JkYzkyNiJ9fX0=
+  
+parts:
+  head:
+    forwardBackward: -0.03
+    upDown: 1.05
+    rightLeft: 0.265
+    visible: false
+    mini: true
+    right_handPose: -45;45;-90
+    handItem: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUwNzQ5MmQ5MzFkYzZlY2IwNTAzZDY2ZmRhZDZjZjc1ZDJkODczMDgzOTkyMzcyYzkxMDE2N2FkMmEyZmZiZiJ9fX0=
+  nose:
+    forwardBackward: -0.14
+    upDown: 0.63
+    rightLeft: 0.73
+    visible: false
+    mini: true
+    right_handPose: 0;-165;-90
+    handItem: material:dye
+  body:
+    forwardBackward: -0.0175
+    upDown: 0.0
+    rightLeft: 0.175
+    visible: false
+    mini: true
+    headPose: 0;0;0
+    headItem: body
+  body1:
+    forwardBackward: -0.085
+    upDown: -0.1
+    rightLeft: -0.675
+    visible: false
+    mini: false
+    right_handPose: -45;27;-90
+    handItem: body
+  body2:
+    forwardBackward: 0.01
+    upDown: -0.1
+    rightLeft: -0.675
+    visible: false
+    mini: false
+    right_handPose: -45;27;-90
+    handItem: body
+  bodyon1:
+    forwardBackward: -0.05
+    upDown: 0.052
+    rightLeft: 0.02
+    visible: false
+    mini: false
+    right_handPose: -45;57;-90
+    handItem: body
+  neck1:
+    forwardBackward: -0.03
+    upDown: 0.61
+    rightLeft: 0.375
+    visible: false
+    mini: true
+    right_handPose: -45;72;-90
+    handItem: body
+  neck2:
+    forwardBackward: -0.03
+    upDown: 0.665
+    rightLeft: 0.32
+    visible: false
+    mini: true
+    right_handPose: -45;57;-90
+    handItem: body
+  neck3:
+    forwardBackward: -0.03
+    upDown: 0.785
+    rightLeft: 0.345
+    visible: false
+    mini: true
+    right_handPose: -45;57;-90
+    handItem: body
+  neck4:
+    forwardBackward: -0.03
+    upDown: 0.81
+    rightLeft: 0.245
+    visible: false
+    mini: true
+    right_handPose: -45;35;-90
+    handItem: body
+  neck5:
+    forwardBackward: -0.03
+    upDown: 0.91
+    rightLeft: 0.225
+    visible: false
+    mini: true
+    right_handPose: -45;35;-90
+    handItem: body
+  leg1:
+    forwardBackward: 0.3
+    upDown: -0.4
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg2:
+    forwardBackward: 0.3
+    upDown: -0.275
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg3:
+    forwardBackward: 0.3
+    upDown: -0.150
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg4:
+    forwardBackward: 0.3
+    upDown: -0.025
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg5:
+    forwardBackward: 0.3
+    upDown: 0.1
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg6:
+    forwardBackward: 0.3
+    upDown: 0.225
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r1:
+    forwardBackward: 0.5
+    upDown: -0.4
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r2:
+    forwardBackward: 0.5
+    upDown: -0.275
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r3:
+    forwardBackward: 0.5
+    upDown: -0.150
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r4:
+    forwardBackward: 0.5
+    upDown: -0.025
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r5:
+    forwardBackward: 0.5
+    upDown: 0.1
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+  leg_r6:
+    forwardBackward: 0.5
+    upDown: 0.225
+    rightLeft: -0.050
+    visible: false
+    mini: true
+    right_handPose: -45;45;0
+    handItem: leg
+
+animations:
+  '1':
+    leg1:
+      right_handPose: -45;45;0
+    leg2:
+      right_handPose: -45;45;0
+    leg3:
+      right_handPose: -45;45;0
+    leg4:
+      right_handPose: -45;45;0
+    leg5:
+      right_handPose: -45;45;0
+    leg6:
+      right_handPose: -45;45;0
+    leg_r6:
+      right_handPose: -45;45;0
+    leg_r5:
+      right_handPose: -45;45;0
+    leg_r4:
+      right_handPose: -45;45;0
+    leg_r3:
+      right_handPose: -45;45;0
+    leg_r2:
+      right_handPose: -45;45;0
+    leg_r1:
+      right_handPose: -45;45;0
+  '2':
+    leg1:
+      right_handPose: -45;52;0
+    leg2:
+      right_handPose: -45;52;0
+    leg3:
+      right_handPose: -45;52;0
+    leg4:
+      right_handPose: -45;52;0
+    leg5:
+      right_handPose: -45;52;0
+    leg6:
+      right_handPose: -45;52;0
+    leg_r6:
+      right_handPose: -45;40;0
+    leg_r5:
+      right_handPose: -45;40;0
+    leg_r4:
+      right_handPose: -45;40;0
+    leg_r3:
+      right_handPose: -45;40;0
+    leg_r2:
+      right_handPose: -45;40;0
+    leg_r1:
+      right_handPose: -45;40;0

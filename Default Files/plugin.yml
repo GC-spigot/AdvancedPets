@@ -1,0 +1,55 @@
+name: AdvancedPets
+main: net.advancedplugins.pets.Core
+api-version: "1.13"
+
+version: 2.12.0
+description: "AdvancedPets is the first Custom Pets Plugin that allows you to create custom pets in-game without any programming knowledge"
+website: "https://advancedplugins.net/item/AdvancedPets.27"
+
+softdepend: [Vault, ModelEngine, Essentials, AdvancedHeads, ItemsAdder, Geyser-Spigot, floodgate, mcMMO]
+
+permissions:
+  advancedpets.menu:
+    description: 'Permission for /ap '
+    default: op
+  advancedpets.remove:
+    description: 'Permission for /ap remove'
+    default: op
+  advancedpets.editor:
+    description: 'Permission for /ap editor'
+    default: op
+  advancedpets.reload:
+    description: 'Permission for /ap reload'
+    default: op
+  advancedpets.list:
+    description: 'Permission for /ap list'
+    default: op
+  advancedpets.addpet:
+    description: 'Permission for /ap addpet'
+    default: op
+  advancedpets.removepet:
+    description: 'Permission for /ap removepet'
+    default: op
+  advancedpets.display:
+    description: 'Permission for /ap display'
+    default: op
+  advancedpets.rename.colors:
+    description: 'Permission for players to use colors when renaming pets'
+    default: op
+  advancedpets.open:
+    description: 'Permission for /ap open'
+    default: op
+
+commands:
+  advancedpets:
+    aliases:
+      - ap
+      - apets
+      - pet
+      - pets
+    description: "Main AdvancedPets Command"
+  petshop:
+    aliases:
+      - ps
+      - petsshop
+    description: "Pet Shop"

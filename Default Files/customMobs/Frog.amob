@@ -1,0 +1,51 @@
+settings:
+  Sounds: ''
+  Nametagheight: 0
+  Animationspeed: 5
+  Animationsmoothness: 1
+  Displayitem: head
+  health: 5
+  biomes: # Random spawning in specified biomes. Biome list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html, set to 'all' to use all biomes
+    - 'FOREST'
+    - 'PLAINS'
+    - 'RIVER'
+    - 'SAVANNA'
+    - 'SWAMP'
+    - 'BREACH'
+    - 'BADLANDS'
+    - 'JUNGLE'
+    - 'OCEAN'
+
+parts:
+  head:
+    upDown: -1.25
+    forwardBackward: 0
+    rightLeft: 0
+    headItem: http://textures.minecraft.net/texture/b828a8cd504a36e42948b7d525f2f0774b947837373a35244d47a1bdc1e1daf
+  left_Leg:
+    upDown: -1.2
+    forwardBackward: 1.1
+    rightLeft: -0.1
+    right_handPose: 0;-11;90
+    handItem: 'material:YELLOW_BANNER '
+  right_Leg:
+    upDown: -1.2
+    forwardBackward: 0.7
+    rightLeft: -0.1
+    right_handPose: 0;-11;90
+    handItem: 'material:YELLOW_BANNER '
+animations:
+  '1':
+    left_Leg:
+      right_handPose: 0;30;90
+    right_Leg:
+      right_handPose: 0;30;90
+    head:
+      headPose: -25;0;0
+  '2':
+    left_Leg:
+      right_handPose: 0;-11;90
+    right_Leg:
+      right_handPose: 0;-11;90
+    head:
+      headPose: 0;0;0
