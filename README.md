@@ -1,62 +1,50 @@
-![image](https://github.com/user-attachments/assets/2ba0c0e7-6999-410b-9c71-6be18018f9a9)
+![image](https://i.imgur.com/iiqpTYA.gif)
 
+# AdvancedPets Plugin
 
-# BattlePass - Ultimate Quests Plugin for Minecraft
+**AdvancedPets** is a custom pets plugin designed to enrich your Minecraft server experience with a variety of unique and customizable pets. With over 16 default 3D-modeled pets and support for vanilla mobs, this plugin offers extensive customization and strategic gameplay opportunities.
 
-Enhance and reward your Minecraft players like never before with BattlePass, the ultimate quests plugin. Create your own quests, offer customizable rewards, and keep players engaged with both free and premium passes. 
+## Key Features
 
-![Daily Quest](https://advancedplugins.net/img/bp/daily-weekly-quests.gif) ![Rewards](https://advancedplugins.net/img/bp/rewards.gif)
-## Features
+### Diverse Pet Options
+- **Custom 3D Pets:** Over 16 default pets with unique 3D models. No extra resource packs required.
+- **Vanilla Mobs as Pets:** Use familiar mobs like zombies and iron golems as pets starting from version 2.0.0.
 
-### Extensive Quest System
-- **50+ Predefined Quests**: Includes over 50 built-in quests and 100+ action triggers.
-- **Customizable Quests**: Design quests requiring specific actions such as breaking blocks, killing mobs, and more.
+### Customization and Control
+- **Pet Abilities:** More than 60 different abilities to customize your pets.
+- **Leveling System:** Pets can be leveled up to increase their abilities and power.
+- **GUI Customization:** Fully customizable GUI menus, messages, and pet names. Control layouts, item texts, and more.
 
-### Free and Premium Passes
-- **Free Passes**: Offer engaging quests for all players at no additional cost.
-- **Premium Passes**: Create exclusive quests and rewards for premium users. Sell passes in your store or give them to donators.
+### Performance and Compatibility
+- **Lag-Free:** Designed with dynamic optimizations and multi-threaded movement to ensure smooth performance.
+- **No Extra Packs Needed:** Custom pets work immediately without the need for additional texture or resource packs.
 
-### Boosters
-- **Timed Boosters**: Provide temporary boosts for quest progress or rewards. Boosters can be applied globally or to individual players.
-- **Network-Wide Boosters**: Ideal for servers with multiple networks.
-
-### In-Game GUI Quests Editor
-- **Easy Creation and Editing**: Manage and create quests directly in-game using a simple GUI for easy setup and customization.
-
-### High Customizability
-- **Configurable Quests and Rewards**: Fully customize quests, messages, and rewards.
-- **MySQL Database Support**: For seamless integration and data management.
+### Advanced Features
+- **ModelEngine Support:** Integration with ModelEngine for custom models.
+- **Permissions and Commands:** Control pet access and customization using permissions or commands.
 
 ### Community and Support
-- **Extensive Wiki**: Detailed guides and tutorials available for setting up and customizing quests.
-- **Active Discord Community**: Join over 8,000 members for support and interaction.
-
-### Leaderboards
-- **In-Game Leaderboards**: Display top players based on quest achievements to encourage competition.
-
-### Seasonal and Timed Events
-- **Daily and Weekly Quests**: Keep gameplay fresh with daily and weekly quest resets.
-- **Seasonal Content**: Manage and implement seasonal themes with built-in season management.
-
-### NPC Integration
-- **NPC Quest Menus**: Use NPCs to access quests and BattlePass menus for enhanced player interaction.
-
-### Plugin Integration
-- **Support for Popular Plugins**: Compatible with over 40 popular plugins including:
-  - AdvancedEnchantments
-  - McMMO
-  - ASkyblock
-  - MythicMobs
-  - and more...
+- **Extensive Wiki:** Comprehensive Wiki available for in-depth information and support.
+- **Discord Community:** Join our Discord server with 4,000+ members for help and interaction.
 
 ## Installation
 
-1. Download the latest version of BattlePass.
-2. Place the BattlePass.jar file into your server's plugins folder.
+1. Download the latest version of AdvancedPets from [AdvancedPlugins]([https://github.com/YourUsername/AdvancedPets/releases](https://advancedplugins.net/item/27)).
+2. Place the `AdvancedPets.jar` file into your server's `plugins` directory.
 3. Restart your server.
-4. Configure BattlePass using the in-game GUI or edit the configuration files as needed.
+4. Configure the plugin using the in-game commands or the configuration files located in `plugins/AdvancedPets`.
+
+## Usage
+
+- **Create and Edit Pets:** Use the `/ap editor` command to create and customize pets in-game.
+- **Ride Pets:** Players can ride their pets.
+- **Rename Pets:** Rename pets using the `/ap rename` command.
+
+## Custom Models
+
+- **ModelEngine Support:** For detailed instructions on integrating ModelEngine models, refer to our [ModelEngine Guide](https://mobs.advancedplugins.net/supported-plugins/modelengine).
 
 ## Documentation and Support
 
-- **[BattlePass Wiki](https://battlepass.advancedplugins.net/)**: Find detailed documentation and tutorials.
+- **[AdvancedPets Wiki]([https://battlepass.advancedplugins.net](https://mobs.advancedplugins.net/advancedpets/available-pets)/)**: Find detailed documentation and tutorials.
 - **[Discord Server](https://discord.com/invite/tm9QzqvmQA)**: Join our community for support and discussions.
